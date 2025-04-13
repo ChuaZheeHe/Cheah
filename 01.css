@@ -1,0 +1,433 @@
+body{
+    background-color: #F8F5F2;
+}
+
+/* Font */
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .zcool-qingke-huangyou-regular {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .noto-serif-sc {
+    font-family: "Noto Serif SC", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+  }
+
+.ma-shan-zheng-regular {
+  font-family: "Ma Shan Zheng", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background:url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.first{
+  padding: 60px;
+  background-color: rgb(255, 234, 192);
+}
+
+@media (max-width: 767px) {
+  .home{
+    height: 190vh;
+    width: 100%;
+    background:url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+}
+.colphoto {
+  height: 400px; /* 你可以自定义这个高度 */
+  overflow: hidden;
+  position: relative;
+}
+.colphoto02 {
+  height: 450px; /* 你可以自定义这个高度 */
+  overflow: hidden;
+  position: relative;
+}
+
+.four{
+  padding-left:200px;
+  padding-right:200px;
+}
+@media (max-width: 767px) {
+  .four{
+    padding-left:50px;
+    padding-right:50px;
+  }
+}
+
+
+.propertyphoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    padding-top: 15px;
+
+}
+.intro .col{
+    padding: 10px;
+}
+
+.full-height {
+  height: 100%; /* 让 .row 区块高度撑满视口 */
+  display: flex;
+  align-items: center; /* 让 .col 垂直居中 */
+}
+
+.propertisename {
+  display: flex;
+  justify-content: flex-end; /* 内容靠右 */
+  align-items: center;       /* 垂直居中内容 */
+  text-align: right;
+  padding-top: 70px;
+}
+
+.agentname{
+  display: flex;
+  justify-content: flex-start; /* 内容靠右 */
+  align-items: center;       /* 垂直居中内容 */
+  text-align: left;
+  padding-top: 70px;
+}
+.apartname{
+  display: flex;
+  justify-content: flex-start; /* 内容靠右 */
+  align-items: center;       /* 垂直居中内容 */
+  text-align: left;
+}
+
+.propertyname{
+  font-size: 80px;
+}
+
+.agentname02{
+  font-size: 50px;
+}
+
+@media (max-width: 767px) {
+    .intro .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* 使文字居中 */
+        flex-direction: column; /* 使所有内容垂直堆叠 */
+    }
+    .intro .col-12 {
+        text-align: center; /* 确保每一列的文字也居中 */
+    }
+    .intro .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro .image-container img {
+        width: 80%; /* 使图片宽度适应 */
+        max-width: 400px; /* 最大宽度限制（可根据需要调整） */
+        padding-bottom: 25px;
+    }
+    .propertisename {
+      display: flex;
+      justify-content: center; /* 内容靠右 */
+      align-items: center;       /* 垂直居中内容 */
+      text-align: center;
+      padding-top: 0px;
+    }
+    .propertyname{
+      font-size: 60px;
+    }
+
+    .agentname02{
+      font-size: 40px;
+    }
+
+    .agentname{
+      display: flex;
+      justify-content: center; /* 内容靠右 */
+      align-items: center;       /* 垂直居中内容 */
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding-top: 0px;
+    }
+    .apartname{
+      display: flex;
+      justify-content: center; /* 内容靠右 */
+      align-items: center;       /* 垂直居中内容 */
+      text-align: center;
+    }
+}
+
+.iqilogo{
+  width: 8%;
+}
+@media (max-width: 767px) {
+  .iqilogo{
+    width: 30%;
+  }
+}
+
+.intro {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0;
+  }
+
+.custom-links a {
+    color: black; /* 默认黑色字体 */
+    text-decoration: none; /* 去除默认下划线 */
+    transition: color 0.3s ease-in-out; /* 让颜色渐变更顺滑 */
+}
+
+.custom-links a:hover {
+    color: white; /* 鼠标悬停时变成白色 */
+    text-decoration: none; /* 确保悬停时也没有下划线 */
+}
+
+.image-container {
+    display: flex;
+    align-items: stretch; /* 让 img 高度填满 container */
+    justify-content: center; /* 图片水平居中（可选） */
+    height: 80%; /* 让 container 高度100% */
+    width: 20%;
+}
+
+.image-container img {
+    height: 80%; /* 图片高度等于 container 高度 */
+    width: auto; /* 保持图片原始比例 */
+    object-fit: cover; /* 保持原始宽高比，同时填满 */
+    width: 90%;
+}
+
+/*contant*/
+.benefit{
+    padding: 25px;
+}
+
+.p-3 {
+    transition: box-shadow 0.3s ease-in-out;
+    padding:10px;
+}
+
+.p-3:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* 自定义阴影 */
+    background-color: #f8f9fa; /* 鼠标悬停时背景稍微变亮 */
+}
+/* propertise A*/
+.propertiseA {
+    padding: 25px;
+    background-color: #e6d5bb; /* 根据你的背景颜色调整 */
+}
+.propertiseA .col-12.col-md-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 让图片铺满但不变形 */
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+.propertiseA .text-container {
+    width: 100%; /* 让文本容器宽度适应父级元素 */
+    word-wrap: break-word; /* 强制长单词换行 */
+    overflow-wrap: break-word; /* 兼容性更好的换行方式 */
+    white-space: normal; /* 允许文本换行 */
+}
+.last {
+    text-align: center;
+    padding: 15px;
+    background-color: #C4A484;
+    color: rgb(0, 0, 0);
+  }
+  
+  .footerlogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 65px;
+    background-color: #C4A484;
+  }
+  
+  .footerlogo img {
+    height: 120%;
+    width: auto;
+  }
+  p {
+      margin-bottom: 20px; /* 按钮下方间距 */
+    }
+    @media (max-width: 768px) {
+      .footerlogo {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        height: auto;
+      }
+    
+      .footerlogo img {
+        height: auto;
+        max-width: 80%;
+        margin-bottom: 10px;
+      }
+    
+      .last {
+        padding: 10px;
+      }
+    
+      /* ✅ 为 WhatsApp 区域和 Information 添加间距 */
+      .whatsapp {
+        margin-bottom: 30px; /* WhatsApp 区域下方间距 */
+      }
+    
+      /* ✅ 增加 Information 上方的间距 */
+      .col-md-3 h5 {
+        margin-top: 20px;
+      }
+    
+      /* ✅ 调整按钮居中 */
+      .btn-success, .btn-secondary, .btn-primary {
+        display: block;
+        margin: 0 auto 15px; /* 居中并添加底部间距 */
+        width: 70%;
+      }
+    
+      /* ✅ 调整文字对齐 */
+      .address p, .whatsapp p, .col-md-3 {
+        text-align: center;
+      }
+    }
+
+    .floating-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+      }
+      
+      
+      /* 额外按钮（初始隐藏，透明） */
+      .extra-btn {
+        position: fixed;
+        bottom: 95px; /* 保持不移动 */
+        right: 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 14px;
+        opacity: 0;  /* 初始透明 */
+        transition: opacity 0.5s ease; /* 透明度渐变 */
+        pointer-events: none; /* 防止透明时点击 */
+      }
+      
+      .extra-btn-2 {
+        position: fixed;
+        bottom: 145px;
+        right: 20px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 14px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        pointer-events: none;
+      }
+
+      .show {
+        opacity: 1;
+        pointer-events: auto; /* 允许点击 */
+      }
+      
+      .popup {
+        position: fixed;
+        bottom: 80px; /* 在按钮上方 */
+        right: 20px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 14px;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        pointer-events: none; /* 防止未显示时可点击 */
+        display: flex;
+        align-items: center;
+      }
+      
+      .close-btn {
+        margin-left: 10px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 16px;
+      }
+      
+      /* 显示时的样式 */
+      .showpopup {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
