@@ -168,7 +168,7 @@ body{
     .intro .image-container img {
         width: 80%; /* 使图片宽度适应 */
         max-width: 400px; /* 最大宽度限制（可根据需要调整） */
-        padding-bottom: 25px;
+        padding-bottom: 10%;
     }
     .propertisename {
       display: flex;
